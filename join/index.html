@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Join Us</title>
+	<link rel="icon" href="http://localhost/orator/assets/img/logo1.png">
+	<link rel="icon" href="http://localhost/orator/assets/img/logo1.png">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.0/css/bootstrapValidator.min.css">
+    <link rel="stylesheet" type="text/css" href="join.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-validator/0.4.5/js/bootstrapvalidator.min.js"></script>
+    <script type="text/javascript" src="join.js"></script>
+
+</head>
+<body>
+<div class="container">
+
+    <form class="well form-horizontal" action="join.php" method="post"  id="contact_form" style="box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;">
+<fieldset>
+
+<!-- Form Name -->
+<legend><img src="http://localhost/orator/assets/img/logo1.png" style="width:10%"/>Join Us Today!</legend>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Name</label>
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="fname" placeholder="Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+
+<!-- Text input-->
+       <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Phone #</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="phone" placeholder="Enter You 10-digit Phone No." class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Course</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-book"></i></span>
+  <input name="course" placeholder="Course" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Year</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-bookmark"></i></span>
+  <input name="year" placeholder="Course Year" class="form-control"  type="number">
+    </div>
+  </div>
+</div>
+
+<!-- Select Basic -->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Gender</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="gender" class="form-control selectpicker" >
+      <option value=" " >Please select your Gender</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+      <option value="Other">Other</option>
+
+    </select>
+  </div>
+</div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Registration No.</label>
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-tag"></i></span>
+  <input name="reg" placeholder="Registration No." class="form-control"  type="text">
+    </div>
+</div>
+</div>
+<!--checkbox-->
+<div class="form-group">
+  <label class="col-md-4 control-label">Field of Interest</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+
+    <input type="checkbox" name="techno[]" value="Content Writing">
+    <label for="cw">Content Writing</label><br>
+
+    <input type="checkbox" name="techno[]" value="Graphic Designing">
+    <label for="gd">Graphic Designing</label><br>
+
+    <input type="checkbox" name="techno[]" value="Anchoring">
+    <label for="an">Anchoring</label><br>
+
+    <input type="checkbox" name="techno[]" value="Event Management">
+    <label for="em">Event Management</label><br>
+
+    <input type="checkbox" name="techno[]" value="Public Relations">
+    <label for="pr">Public Relations</label><br>
+
+    <input type="checkbox" name="techno[]" value="Web Development">
+    <label for="web">Web Development</label><br>
+
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4">
+    <input type="submit" name="sub" class="btn btn-warning" value="Submit"></input>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+    </div><!-- /.container -->
+
+</body>
+</html>
